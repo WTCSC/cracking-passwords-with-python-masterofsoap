@@ -32,7 +32,7 @@ def crack_passwords(password_file, dictionary_file, algorithm='sha256', verbose=
                 if verbose:
                     print(f"Cracked {username}'s password")
                 break
-
+# Prints the results
     if verbose:
         print(f"Total passwords cracked: {cracked}")
         print(f"Passwords not cracked: {len(password_data) - cracked}")
